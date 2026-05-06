@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://stahe.github.io/pt-java-sept-1998/sitemap.xml
