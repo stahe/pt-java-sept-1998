@@ -18,7 +18,7 @@
         <link rel="prev" href="index.html">
       
       
-        <link rel="next" href="-os-fundamentos-da-linguagem-java.html">
+        <link rel="next" href="nocoes-basicas-da-linguagem-java.html">
       
       
         
@@ -56,6 +56,8 @@
     
     
       <link rel="stylesheet" href="stylesheets/focus.css">
+    
+      <link rel="stylesheet" href="stylesheets/bidi.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -340,14 +342,14 @@
   
   
     <li class="md-nav__item">
-      <a href="-os-fundamentos-da-linguagem-java.html" class="md-nav__link">
+      <a href="nocoes-basicas-da-linguagem-java.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    2.  Os fundamentos da linguagem Java
+    2. Noções básicas da linguagem Java
   
 
     
@@ -394,14 +396,14 @@
   
   
     <li class="md-nav__item">
-      <a href="classes-comumente-utilizadas-em-java-.html" class="md-nav__link">
+      <a href="classes-de-uso-comum.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    4. Classes comumente utilizadas em Java 
+    4. Classes de uso comum
   
 
     
@@ -421,14 +423,14 @@
   
   
     <li class="md-nav__item">
-      <a href="interfaces-graficas-de-utilizador.html" class="md-nav__link">
+      <a href="interfaces-graficas.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    5. Interfaces gráficas de utilizador
+    5. Interfaces gráficas
   
 
     
@@ -448,14 +450,14 @@
   
   
     <li class="md-nav__item">
-      <a href="gestao-de-bases-de-dados-com-a-api-jdbc.html" class="md-nav__link">
+      <a href="gestao-de-bases-de-dados-com-o-api-jdbc.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    6. Gestão de bases de dados com a API JDBC
+    6. Gestão de bases de dados com o API JDBC
   
 
     
@@ -475,14 +477,14 @@
   
   
     <li class="md-nav__item">
-      <a href="----threads-.html" class="md-nav__link">
+      <a href="----os-threads-de-execucao.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    7.     Threads 
+    7.     Os threads de execução
   
 
     
@@ -556,14 +558,14 @@
   
   
     <li class="md-nav__item">
-      <a href="criacao-de-aplicacoes-distribuidas-corba.html" class="md-nav__link">
+      <a href="construcao-de-aplicacoes-distribuidas-corba.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    10. Criação de aplicações distribuídas CORBA
+    10. Construção de aplicações distribuídas CORBA
   
 
     
@@ -594,27 +596,27 @@
 
 
 <h1 id="1-introducao">1. <span style="color: #365f91">Introdução</span></h1>
-<p>O PDF deste documento está disponível |<a href="https://1drv.ms/b/c/f53a919f43d27eb5/IQBka7V66Xp_QYm9t8G0goT0AUojdOzoqvCPvUBQEKVXon0?e=ZhNju6">AQUI</a>|.</p>
-<p>Este documento é um recurso do curso: não é um curso completo. O aprofundamento do estudo requer a assistência de um formador.</p>
-<p>No entanto, os alunos encontrarão aqui uma grande quantidade de informação que lhes permitirá trabalhar de forma independente na maior parte do tempo.</p>
-<p>Existem excelentes livros sobre Java. Entre eles:</p>
+<p>O PDF deste documento está disponível |<a href="https://1drv.ms/b/c/f53a919f43d27eb5/IQBka7V66Xp_QYm9t8G0goT0AUojdOzoqvCPvUBQEKVXon0?e=VoZGKL">AQUI</a>|.</p>
+<p>Este documento é um material de apoio ao curso: não se trata de um curso completo. Para aprofundar os conhecimentos, é necessária a ajuda de um professor.</p>
+<p>No entanto, o aluno encontrará aqui uma grande quantidade de informações que, na maioria das vezes, lhe permitirão trabalhar sozinho.</p>
+<p>Existem excelentes livros sobre Java. Entre estes:</p>
 <ol>
-<li>Programação em Java, de Claude Delannoy, publicado pela Eyrolles</li>
+<li>«Programar em Java», de Claude Delannoy, editado pela Eyrolles</li>
 </ol>
 <ol start="2">
-  <li>Java Client-Server, de Cédric Nicolas, Christophe Avare e Frédéric Najman, publicado pela Eyrolles.
+  <li>«Java cliente-servidor», de Cédric Nicolas, Christophe Avare e Frédéric Najman, publicado pela Eyrolles.
   </li>
 </ol>
 
-<p>O primeiro livro é uma excelente introdução didática à linguagem Java. Depois de dominar o seu conteúdo, pode passar para o segundo livro, que aborda aspetos mais avançados de Java (JavaBeans, JDBC, CORBA/RMI). Oferece uma perspetiva interessante da indústria sobre Java. Para aprofundar os seus conhecimentos sobre Java em vários campos, pode consultar a coleção «Java Series» da O&#x27;Reilly. Para a utilização profissional de Java numa plataforma J2EE, pode ler:</p>
+<p>O primeiro livro é uma excelente obra de introdução pedagógica à linguagem Java. Depois de assimilar o seu conteúdo, poderá passar para a segunda obra, que apresenta aspetos mais avançados de Java (Java Beans, JDBC, Corba/Rmi). Apresenta uma perspetiva industrial interessante sobre Java. Para aprofundar os conhecimentos sobre Java em diferentes domínios, pode-se consultar a coleção «Java series» da O&#x27;Reilly. Para uma utilização profissional de Java no âmbito de uma plataforma J2EE, pode-se ler:</p>
 <ol>
-  <li>J2EE Programming, publicado pela Wrox e distribuído pela Eyrolles.
+  <li>Programação j2EE, publicado pela Wrox e distribuído pela Eyrolles.
   </li>
 </ol>
 
-<p>Serge Tahé, setembro de 1998, junho de 2002</p>
-<p><strong><mark style="background-color: #ffff00">Aviso</mark></strong>: Ao escrever este curso, o autor não estava familiarizado com as convenções de codificação do Java, uma linguagem relativamente nova em 1998. Também não dispunha de um IDE para sinalizar violações das convenções de nomenclatura do Java. Assim, os nomes das classes e interfaces deveriam começar todos com uma letra maiúscula. Esta regra não é seguida neste documento. Em muitos aspetos, este curso está obsoleto. De facto, as tecnologias apresentadas — RMI, CORBA, Swing e Applets — já não estão em uso, e o IDE JBuilder já não existe. Em vez de reescrever este curso, escrevi um novo em 2015: [<a href="https://stahe.github.io/pt-java-spring-dec-2015/"><u><span style="color: #0563c1">Introdução à Linguagem </span></u><u><span style="color: #0563c1">Java e ao Ecossistema Spring Através de um Estudo de Caso (2015)</span></u></a>], que se baseia em certos capítulos deste documento. Recomenda-se, portanto, utilizar o curso mais recente e consultar este quando for mencionado.</p>
-<p>Serge Tahé, fevereiro de 2026</p>
+<p><strong>Serge Tahé</strong>, setembro de 1998, junho de 2002</p>
+<p><strong><mark style="background-color: #ffff00">Aviso</mark></strong>: Quando este curso foi escrito, o autor tinha um conhecimento limitado das regras de escrita do código Java, uma linguagem ainda recente em 1998. Também não dispunha de IDE para o alertar sobre infrações às regras de nomenclatura da linguagem Java. Assim, os nomes das classes e interfaces deveriam todos começar por maiúscula. Esta regra não é seguida neste documento. Em muitos aspetos, este curso está obsoleto. Com efeito, as tecnologias apresentadas — RMI, CORBA, Swing e Applets — já não estão em voga, e o IDE JBuilder já não existe. Em vez de reescrever este curso, elaborei um novo em 2015: [<a href="https://stahe.github.io/pt-java-spring-dec-2015/"><u><span style="color: #000080">Introdução à linguagem Java e ao ecossistema Spring através de um estudo de caso (2015)</span></u></a>], que se baseia em alguns capítulos deste documento. Recomenda-se, portanto, utilizar este último curso e consultar o presente sempre que for feita referência ao mesmo.</p>
+<p><strong>Serge Tahé</strong>, fevereiro de 2026</p>
 
 
 
